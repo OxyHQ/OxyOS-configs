@@ -1,10 +1,10 @@
 Source: oxyos-configs
 Section: misc
 Priority: extra
-Maintainer: OxyHQ <hello@oxyos.org>
+Maintainer: OxyHQ <admin@oxy.so>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 3.9.5
-Homepage: https://oxyos.org/
+Homepage: https://os.oxy.so
 
 Package: oxyos-configs
 Architecture: all
