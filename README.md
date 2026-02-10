@@ -1,4 +1,17 @@
 # oxyos-configs
-Various configuration files for use with OxyOS.  Moved to its own repo!
 
-So now, if you'd like to build from your git clone, (I'd recommend copying the folder out first) cd into oxyos-configs, run _dpkg-buildpackage -us -uc_ and you'll find yourself with a proper Debian package one folder up.
+Various configuration files for use with [OxyOS](https://os.oxy.so).
+
+## Building
+
+To build a Debian package from your git clone (it is recommended to copy the folder first):
+
+```bash
+cd oxyos-configs
+dpkg-buildpackage -us -uc
+```
+
+The resulting `.deb` package will be located one directory up.
+
+---
+Part of [OxyOS](https://os.oxy.so) | [GitHub](https://github.com/OxyHQ)
