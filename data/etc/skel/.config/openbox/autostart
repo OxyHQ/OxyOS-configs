@@ -1,6 +1,6 @@
 ## Openbox autostart.sh
 ## ====================
-## When you login to your CrunchBang++ Openbox session, this autostart script
+## When you login to your OxyOS Openbox session, this autostart script
 ## will be executed to set-up your environment and launch any applications
 ## you want to run at startup.
 ##
@@ -13,9 +13,9 @@
 ##
 ## If you do something cool with your autostart script and you think others
 ## could benefit from your hack, please consider sharing it at:
-## https://www.reddit.com/r/crunchbangplusplus
+## https://www.reddit.com/r/oxyos
 ##
-## Have fun & happy CrunchBangin'! :)
+## Have fun & happy hacking! :)
 
 ## LX PolicyKit
 lxpolkit &
@@ -29,7 +29,7 @@ hsetroot -solid "#2E3436" &
 ## 3. sleep - give compositor time to start
 ## 4. tint2 panel
 nitrogen --restore &
-cbpp-compositor --start &
+oxyos-compositor --start &
 tint2 &
 
 ## Start nm-applet for systray
@@ -57,13 +57,13 @@ xset r rate 250 25 &
 ## Turn on/off system beep
 xset b off &
 
-## cbpp-user-setup - User space initialization, sets .gtk-bookmarks and
+## oxyos-user-setup - User space initialization, sets .gtk-bookmarks and
 ## creates symlink in images to wallpaper folder only runs once. Safe to remove.
-~/.cbpp-user-setup &
+~/.oxyos-user-setup &
 
-## cbpp-welcome - post-installation script, will not run in a live session and
+## oxyos-welcome - post-installation script, will not run in a live session and
 ## only runs once. Safe to remove.
-(sleep 10s && cbpp-welcome --firstrun) &
+(sleep 10s && oxyos-welcome --firstrun) &
 
 ## Run the conky
 conky -q &

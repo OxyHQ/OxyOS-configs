@@ -1,19 +1,19 @@
-cbpp-configs (13.0) unstable; urgency=low
+oxyos-configs (13.0) unstable; urgency=low
 
   * Version bump
   * Removing VNC menu item
   * Power profiles pipemenu
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 08 Jun 2025 13:10:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Sun, 08 Jun 2025 13:10:43 -0800
 
-cbpp-configs (12.1) unstable; urgency=low
+oxyos-configs (12.1) unstable; urgency=low
 
   * Chrome -- remove First Run (thanks @Alex313031)
   * nitrogen -- don't ignore user's settings (thanks @corey851)
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Thu, 01 Feb 2024 19:37:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Thu, 01 Feb 2024 19:37:43 -0800
 
-cbpp-configs (12.0) unstable; urgency=low
+oxyos-configs (12.0) unstable; urgency=low
 
   * Dropbox -- remove pipemenu
   * pbuilder -- update distro reference
@@ -21,9 +21,9 @@ cbpp-configs (12.0) unstable; urgency=low
   * added xfce4 helper file
   * fix screen lock on lid close for laptops
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 14 May 2023 16:57:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Sun, 14 May 2023 16:57:43 -0800
 
-cbpp-configs (11.0) unstable; urgency=low
+oxyos-configs (11.0) unstable; urgency=low
 
   * Fixed mate-volume-control systray autostart
   * Converted conkyrc to new format
@@ -32,76 +32,76 @@ cbpp-configs (11.0) unstable; urgency=low
   * Terminator -- set bold_is_bright
   * Openbox -- menu.xml parsed/formatted
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Wed, 21 Apr 2021 16:57:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Wed, 21 Apr 2021 16:57:43 -0800
 
-cbpp-configs (10.2) unstable; urgency=low
+oxyos-configs (10.2) unstable; urgency=low
 
   * Drop /etc/skel/.profile
   * Drop /etc/profile.d
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Fri, 12 Jul 2019 11:03:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Fri, 12 Jul 2019 11:03:43 -0800
 
-cbpp-configs (10.1) unstable; urgency=low
+oxyos-configs (10.1) unstable; urgency=low
 
   * Fix gksudo
   * Fix terminator hotkeys
   * Fix volume hotkeys
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 14:03:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Sun, 12 May 2019 14:03:43 -0800
 
-cbpp-configs (10.0) unstable; urgency=low
+oxyos-configs (10.0) unstable; urgency=low
 
   * Update package dependencies
   * Update pbuilderrc
   * Change GIMP config to not look horrible
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 14:03:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Sun, 12 May 2019 14:03:43 -0800
  
-cbpp-configs (9.0) unstable; urgency=low
+oxyos-configs (9.0) unstable; urgency=low
 
   * Nineing
-  * Move cbpp-slim contents here
+  * Move oxyos-slim contents here
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Mon, 27 Feb 2017 23:23:43 -0800
+ -- Ben Young <computermouth@oxyos.org>  Mon, 27 Feb 2017 23:23:43 -0800
  
-cbpp-configs (1.4) unstable; urgency=low
+oxyos-configs (1.4) unstable; urgency=low
 
   * Switch power management back to xfce4-power-manager
   * Fixed duplicate nm-applet icon
   * Launche xfce power manager from power settings in OB menu
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 26 June 2016 15:44:43 -0600
+ -- Ben Young <computermouth@oxyos.org>  Sun, 26 June 2016 15:44:43 -0600
 
-cbpp-configs (1.3) unstable; urgency=low
+oxyos-configs (1.3) unstable; urgency=low
 
   * Url fixes and Openbox menu.xml typo fix --jlacroix82
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 23 Sept 2015 23:44:43 -0600
+ -- Ben Young <computermouth@oxyos.org>  Tue, 23 Sept 2015 23:44:43 -0600
 
-cbpp-configs (1.2) unstable; urgency=low
+oxyos-configs (1.2) unstable; urgency=low
 
   * Refactored Openbox menu.xml to fix obmenu parsing. --jlacroix82
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 22 Sept 2015 23:57:43 -0600
+ -- Ben Young <computermouth@oxyos.org>  Tue, 22 Sept 2015 23:57:43 -0600
 
-cbpp-configs (1.1) unstable; urgency=low
+oxyos-configs (1.1) unstable; urgency=low
 
   * Added dmenu list suggestion population (credit xa2rd)
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 17 Feb 2015 23:57:43 -0600
+ -- Ben Young <computermouth@oxyos.org>  Tue, 17 Feb 2015 23:57:43 -0600
 
-cbpp-configs (1.0) unstable; urgency=low
+oxyos-configs (1.0) unstable; urgency=low
 
   * Modified openbox/menu.xml rc.xml, geany.conf, and gmrunrc to be terminal-agnostic (credit nfultz)
-  * Rebuild for cbpp with newer debian standards
+  * Rebuild for oxyos with newer debian standards
   * Removed cb-* branding
   * Fixed Edit Default Applications openbox entry.
   * Removed depracated --fileman flag from catfish thunar launcher.
   * Removed conkywonky, replaced with direct command to kill the process.
-  * Rolled cb-/cbpp-slim into this package
+  * Rolled cb-/oxyos-slim into this package
   * Fixed .gtk-bookmarks issue.
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 17 Feb 2015 23:57:43 -0600
+ -- Ben Young <computermouth@oxyos.org>  Tue, 17 Feb 2015 23:57:43 -0600
 
 cb-configs (20130504-2) unstable; urgency=low
 

@@ -1,9 +1,9 @@
 #!/bin/bash
-#CrunchBangPlusPlus User Set-up
+#OxyOS User Set-up
 
 USER="$1"
 
-if [ ! -f "/home/$USER/.config/crunchbangplusplus/cb-setup" ]; then
+if [ ! -f "/home/$USER/.config/oxyos/cb-setup" ]; then
 
     cd /etc/skel
     tar cpzf skel.tar.gz .
@@ -17,7 +17,7 @@ if [ ! -f "/home/$USER/.config/crunchbangplusplus/cb-setup" ]; then
     fi
     ln -s /usr/share/backgrounds /home/$USER/images/wallpapers/shared
 
-    touch /home/$USER/.config/crunchbangplusplus/cb-setup
+    touch /home/$USER/.config/oxyos/cb-setup
     chown -R $USER:$USER /home/$USER
 
 fi

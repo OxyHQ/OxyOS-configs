@@ -1,13 +1,13 @@
-Source: cbpp-configs
+Source: oxyos-configs
 Section: misc
 Priority: extra
-Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Maintainer: OxyHQ <hello@oxyos.org>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 3.9.5
-Homepage: https://crunchbangplusplus.org/
+Homepage: https://oxyos.org/
 
-Package: cbpp-configs
+Package: oxyos-configs
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: config files for CBPP
- Various configuration files for use with CBPP.
+Description: config files for OxyOS
+ Various configuration files for use with OxyOS.

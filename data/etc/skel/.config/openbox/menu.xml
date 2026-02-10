@@ -66,7 +66,7 @@
       </item>
       <item label="Thunar File Manager (root)">
         <action name="Execute">
-          <execute>cbpp-gksudo thunar</execute>
+          <execute>oxyos-gksudo thunar</execute>
         </action>
       </item>
     </menu>
@@ -128,7 +128,7 @@
       </item>
     </menu>
     <menu id="network" label="Network">
-      <menu execute="cbpp-x-www-browser-pipemenu" id="wwwbrowsers" label="WWW Browsers" />
+      <menu execute="oxyos-x-www-browser-pipemenu" id="wwwbrowsers" label="WWW Browsers" />
       <item label="Filezilla">
         <action name="Execute">
           <execute>filezilla</execute>
@@ -149,10 +149,10 @@
           <execute>gigolo</execute>
         </action>
       </item>
-      <menu execute="cbpp-sshconfig-pipemenu" id="sshconfig" label="SSH" />
+      <menu execute="oxyos-sshconfig-pipemenu" id="sshconfig" label="SSH" />
     </menu>
     <menu id="office" label="Office">
-      <menu execute="cbpp-libreoffice-pipemenu" id="libreoffice" label="LibreOffice" />
+      <menu execute="oxyos-libreoffice-pipemenu" id="libreoffice" label="LibreOffice" />
       <item label="Google Docs">
         <action name="Execute">
           <execute>x-www-browser https://drive.google.com/</execute>
@@ -180,11 +180,11 @@
       </item>
     </menu>
     <separator />
-    <menu execute="cbpp-places-pipemenu" id="pipe-placesmenu" label="Places" />
-    <menu execute="cbpp-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files" />
+    <menu execute="oxyos-places-pipemenu" id="pipe-placesmenu" label="Places" />
+    <menu execute="oxyos-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files" />
     <separator />
     <menu id="settings" label="Settings">
-      <menu execute="cbpp-compositor" id="CompositingPipeMenu" label="Compositor" />
+      <menu execute="oxyos-compositor" id="CompositingPipeMenu" label="Compositor" />
       <menu id="conkyconfig" label="Conky">
         <item label="Edit .conkyrc">
           <action name="Execute">
@@ -332,7 +332,7 @@
           <execute>mate-power-preferences</execute>
         </action>
       </item>
-      <menu execute="cbpp-power-pipemenu" id="PowerPipeMenu" label="Power Profiles" />
+      <menu execute="oxyos-power-pipemenu" id="PowerPipeMenu" label="Power Profiles" />
       <item label="Screensaver">
         <action name="Execute">
           <execute>xscreensaver-demo</execute>
@@ -345,15 +345,15 @@
       </item>
     </menu>
     <menu id="system" label="System">
-      <menu execute="cbpp-printing-pipemenu" id="PrintingPipeMenu" label="Printers" />
+      <menu execute="oxyos-printing-pipemenu" id="PrintingPipeMenu" label="Printers" />
       <item label="GParted">
         <action name="Execute">
-          <execute>cbpp-gksudo gparted</execute>
+          <execute>oxyos-gksudo gparted</execute>
         </action>
       </item>
       <item label="Synaptic Package Manager">
         <action name="Execute">
-          <execute>cbpp-gksudo synaptic</execute>
+          <execute>oxyos-gksudo synaptic</execute>
         </action>
       </item>
     </menu>
@@ -365,7 +365,7 @@
     </item>
     <item label="Exit">
       <action name="Execute">
-        <execute>cbpp-exit</execute>
+        <execute>oxyos-exit</execute>
       </action>
     </item>
   </menu>
