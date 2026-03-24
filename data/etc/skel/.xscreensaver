@@ -35,7 +35,7 @@ textMode:	literal
 textLiteral:	XScreenSaver
 textFile:	
 textProgram:	fortune
-textURL:	http://planet.debian.org/rss20.xml
+textURL:
 dialogTheme:	default
 settingsGeom:	25,201 1360,242
 
