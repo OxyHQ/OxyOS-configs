@@ -1,6 +1,6 @@
 # oxyos-configs
 
-Various configuration files for use with [OxyOS](https://os.oxy.so).
+Various configuration files for use with [OxyOS](https://oxy.so/os).
 
 ## Building
 
@@ -14,4 +14,4 @@ dpkg-buildpackage -us -uc
 The resulting `.deb` package will be located one directory up.
 
 ---
-Part of [OxyOS](https://os.oxy.so) | [GitHub](https://github.com/OxyHQ)
+Part of [OxyOS](https://oxy.so/os) | [GitHub](https://github.com/OxyHQ)
